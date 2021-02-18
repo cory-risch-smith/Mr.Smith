@@ -1,0 +1,49 @@
+article {
+  width: 700px;
+  margin: auto;
+}
+
+h1 {
+  color: red;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: purple;
+  font-family: serif;
+}
+
+.introduction {
+  font-family: cursive;
+}
+
+#behavior {
+  color: darkgray;
+  font-weight: 100;
+}
+
+#description {
+  color: darkred;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#culture {
+  color: blue;
+  font-weight: 3;
+}
+
+#misconceptions {
+  color: green;
+  font-family: fantasy;
+}
+
+#navigation {
+  color: darkolivegreen;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.article {
+  width: 700px;
+  margin: auto;
+}

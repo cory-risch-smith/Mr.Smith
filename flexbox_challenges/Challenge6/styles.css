@@ -1,0 +1,101 @@
+/**************************
+RESET to ensure user agent padding and 
+margin on elements do not affect layout.
+
+Note this reset is not appropriate for
+production websites.
+***************************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  color: #333;
+  background-color: white;
+  padding: 15px;
+}
+
+#section1 > main {
+  width: 1000px;
+  padding: 20px;
+  background-color: white;
+  display: block;
+}
+
+nav {
+  background-color: rgb(255, 126, 45);
+  margin-bottom: 15px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  border-right: 2px solid black;
+}
+
+nav ul li:last-of-type a {
+  border-right: none;
+}
+
+header {
+  background-color: honeydew;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+section {
+  display: flex;
+  background-color: aqua;
+}
+
+article {
+  background-color: bisque;
+}
+
+.article1 {
+  margin-right: 20px;
+}
+
+.article2 {
+  background-color: beige;
+  margin-right: 20px;
+}
+
+#section2 {
+  flex-wrap: wrap;
+  background-color: lightgray;
+}
+
+#section2 > article {
+  background-color: lightgray;
+  flex: 1;
+  padding: 10px;
+}
+
+#section2 > h2 {
+  flex: 1 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+}
